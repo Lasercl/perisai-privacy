@@ -1,236 +1,517 @@
 <!doctype html>
 <html lang="id">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kebijakan Privasi · Perisai Alkitab Scroll</title>
-<meta name="description" content="Kebijakan privasi Perisai Alkitab Scroll / Privacy policy for Perisai Bible Scroll.">
-<style>
-  :root {
-    --bg: #faf6ee;
-    --surface: #ffffff;
-    --text: #1f2430;
-    --muted: #5b6272;
-    --accent: #1e3a5f;
-    --line: #e6dfd1;
-    color-scheme: light dark;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #12161d;
-      --surface: #1a2029;
-      --text: #e8e4dc;
-      --muted: #a3a9b5;
-      --accent: #9cc0ea;
-      --line: #2b3340;
-    }
-  }
-  * { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
-  }
-  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
-  header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 8px; }
-  .app { color: var(--accent); font-weight: 600; font-size: 15px; letter-spacing: .02em; margin: 0 0 6px; }
-  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 8px; }
-  h2 { font-size: 20px; margin: 32px 0 6px; }
-  p, ul { margin: 0 0 12px; }
-  ul { padding-left: 22px; }
-  li { margin-bottom: 4px; }
-  .date { color: var(--muted); font-size: 15px; margin: 0; }
-  a { color: var(--accent); }
-  .switch { display: flex; gap: 8px; margin-top: 16px; }
-  .switch a {
-    text-decoration: none; font-size: 15px; font-weight: 600;
-    padding: 6px 14px; border-radius: 999px; border: 1px solid var(--line);
-    color: var(--muted); background: var(--surface);
-  }
-  .switch a[aria-current="true"] { color: var(--bg); background: var(--accent); border-color: var(--accent); }
-  .summary { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px 6px; margin-top: 24px; }
-  .summary h2 { margin-top: 0; }
-  section[lang] + section[lang] { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; }
-  .js section[lang][hidden] { display: none; }
-  footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
-</style>
-</head>
-<body>
-<main>
-  <header>
-    <p class="app">Perisai Alkitab Scroll · Perisai Bible Scroll</p>
-    <h1 id="title">Kebijakan Privasi</h1>
-    <p class="date" id="date">Berlaku sejak 4 Oktober 2026</p>
-    <nav class="switch" aria-label="Bahasa / Language">
-      <a href="#id" data-lang="id" aria-current="true">Bahasa Indonesia</a>
-      <a href="#en" data-lang="en">English</a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kebijakan Privasi · Perisai Alkitab Scroll</title>
+    <meta
+      name="description"
+      content="Kebijakan privasi Perisai Alkitab Scroll / Privacy policy for Perisai Bible Scroll."
+    />
+    <style>
+      :root {
+        --bg: #faf6ee;
+        --surface: #ffffff;
+        --text: #1f2430;
+        --muted: #5b6272;
+        --accent: #1e3a5f;
+        --line: #e6dfd1;
+        color-scheme: light dark;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #12161d;
+          --surface: #1a2029;
+          --text: #e8e4dc;
+          --muted: #a3a9b5;
+          --accent: #9cc0ea;
+          --line: #2b3340;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font:
+          17px/1.65 system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          "Noto Sans",
+          sans-serif;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 16px 64px;
+      }
+      header {
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 20px;
+        margin-bottom: 8px;
+      }
+      .app {
+        color: var(--accent);
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 0.02em;
+        margin: 0 0 6px;
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 0 0 8px;
+      }
+      h2 {
+        font-size: 20px;
+        margin: 32px 0 6px;
+      }
+      p,
+      ul {
+        margin: 0 0 12px;
+      }
+      ul {
+        padding-left: 22px;
+      }
+      li {
+        margin-bottom: 4px;
+      }
+      .date {
+        color: var(--muted);
+        font-size: 15px;
+        margin: 0;
+      }
+      a {
+        color: var(--accent);
+      }
+      .switch {
+        display: flex;
+        gap: 8px;
+        margin-top: 16px;
+      }
+      .switch a {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 6px 14px;
+        border-radius: 999px;
+        border: 1px solid var(--line);
+        color: var(--muted);
+        background: var(--surface);
+      }
+      .switch a[aria-current="true"] {
+        color: var(--bg);
+        background: var(--accent);
+        border-color: var(--accent);
+      }
+      .summary {
+        background: var(--surface);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 16px 18px 6px;
+        margin-top: 24px;
+      }
+      .summary h2 {
+        margin-top: 0;
+      }
+      section[lang] + section[lang] {
+        border-top: 1px solid var(--line);
+        margin-top: 48px;
+        padding-top: 16px;
+      }
+      .js section[lang][hidden] {
+        display: none;
+      }
+      footer {
+        margin-top: 48px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="app">Perisai Alkitab Scroll · Perisai Bible Scroll</p>
+        <h1 id="title">Kebijakan Privasi</h1>
+        <p class="date" id="date">Berlaku sejak 4 Oktober 2026</p>
+        <nav class="switch" aria-label="Bahasa / Language">
+          <a href="#id" data-lang="id" aria-current="true">Bahasa Indonesia</a>
+          <a href="#en" data-lang="en">English</a>
+        </nav>
+      </header>
 
-  <section id="id" lang="id">
-    <p>Perisai Alkitab Scroll ("aplikasi", "kami") adalah aplikasi Android untuk membaca ayat Alkitab dalam bahasa Inggris (KJV) dan bahasa Indonesia (TSI). Kebijakan ini menjelaskan data apa yang digunakan aplikasi dan bagaimana data itu ditangani.</p>
+      <section id="id" lang="id">
+        <p>
+          Perisai Alkitab Scroll ("aplikasi", "kami") adalah aplikasi Android
+          untuk membaca ayat Alkitab dalam bahasa Inggris (KJV) dan bahasa
+          Indonesia (TSI). Kebijakan ini menjelaskan data apa yang digunakan
+          aplikasi dan bagaimana data itu ditangani.
+        </p>
 
-    <div class="summary">
-      <h2>Ringkasan</h2>
-      <ul>
-        <li>Tidak ada akun. Kamu tidak perlu mendaftar atau masuk.</li>
-        <li>Data kamu disimpan di perangkatmu sendiri. Kami tidak punya server dan tidak menerima data kamu.</li>
-        <li>Tidak ada iklan.</li>
-        <li>Tidak ada pelacakan atau analitik di versi 1.</li>
-        <li>Pembayaran ditangani sepenuhnya oleh Google Play.</li>
-        <li>Kami tidak menjual atau membagikan data kamu kepada siapa pun.</li>
-      </ul>
-    </div>
+        <div class="summary">
+          <h2>Ringkasan</h2>
+          <ul>
+            <li>Tidak ada akun. Kamu tidak perlu mendaftar atau masuk.</li>
+            <li>
+              Data kamu disimpan di perangkatmu sendiri. Kami tidak punya server
+              dan tidak menerima data kamu.
+            </li>
+            <li>Tidak ada iklan.</li>
+            <li>Tidak ada pelacakan atau analitik di versi 1.</li>
+            <li>Pembayaran ditangani sepenuhnya oleh Google Play.</li>
+            <li>
+              Kami tidak menjual atau membagikan data kamu kepada siapa pun.
+            </li>
+          </ul>
+        </div>
 
-    <h2>Data yang disimpan di perangkat</h2>
-    <p>Aplikasi menyimpan data berikut <strong>secara lokal</strong> di penyimpanan aplikasi pada perangkatmu:</p>
-    <ul>
-      <li><strong>Bookmark</strong> (ayat yang kamu simpan).</li>
-      <li><strong>Riwayat baca</strong>: pasal yang sudah dibuka per hari (dipakai untuk batas 1 pasal per hari pada versi gratis) dan posisi baca terakhir.</li>
-      <li><strong>Data kebiasaan</strong>: streak harian.</li>
-      <li><strong>Pengaturan</strong>: bahasa aplikasi, mode tampilan, jam notifikasi.</li>
-      <li><strong>Status aplikasi</strong>: tanggal pertama kali aplikasi dibuka (untuk menghitung masa uji coba 30 hari) dan status langganan yang di-cache agar aplikasi tetap bekerja tanpa internet.</li>
-    </ul>
-    <p>Data ini tidak pernah dikirim ke kami. Perisai Alkitab Scroll tidak memiliki server. Data akan terhapus jika kamu menghapus data aplikasi atau meng-uninstall aplikasi.</p>
+        <h2>Data yang disimpan di perangkat</h2>
+        <p>
+          Aplikasi menyimpan data berikut <strong>secara lokal</strong> di
+          penyimpanan aplikasi pada perangkatmu:
+        </p>
+        <ul>
+          <li><strong>Bookmark</strong> (ayat yang kamu simpan).</li>
+          <li>
+            <strong>Riwayat baca</strong>: pasal yang sudah dibuka per hari
+            (dipakai untuk batas 1 pasal per hari pada versi gratis) dan posisi
+            baca terakhir.
+          </li>
+          <li><strong>Data kebiasaan</strong>: streak harian.</li>
+          <li>
+            <strong>Pengaturan</strong>: bahasa aplikasi, mode tampilan, jam
+            notifikasi.
+          </li>
+          <li>
+            <strong>Status aplikasi</strong>: tanggal pertama kali aplikasi
+            dibuka (untuk menghitung masa uji coba 30 hari) dan status langganan
+            yang di-cache agar aplikasi tetap bekerja tanpa internet.
+          </li>
+        </ul>
+        <p>
+          Data ini tidak pernah dikirim ke kami. Perisai Alkitab Scroll tidak
+          memiliki server. Data akan terhapus jika kamu menghapus data aplikasi
+          atau meng-uninstall aplikasi.
+        </p>
 
-    <h2>Cadangan Android</h2>
-    <p>Jika fitur cadangan (backup) Android aktif di perangkatmu, Android dapat menyertakan data di atas dalam cadangan otomatis ke akun Google kamu, lalu memulihkannya saat aplikasi dipasang ulang. Cadangan ini dikelola oleh kamu dan Google; kami tidak dapat mengaksesnya. Kamu bisa mematikan atau menghapus cadangan di pengaturan Android atau Google Drive.</p>
+        <h2>Cadangan Android</h2>
+        <p>
+          Jika fitur cadangan (backup) Android aktif di perangkatmu, Android
+          dapat menyertakan data di atas dalam cadangan otomatis ke akun Google
+          kamu, lalu memulihkannya saat aplikasi dipasang ulang. Cadangan ini
+          dikelola oleh kamu dan Google; kami tidak dapat mengaksesnya. Kamu
+          bisa mematikan atau menghapus cadangan di pengaturan Android atau
+          Google Drive.
+        </p>
 
-    <h2>Pembayaran (Google Play Billing)</h2>
-    <p>Langganan Premium diproses oleh Google Play Billing. Kami tidak menerima atau menyimpan nomor kartu, data pembayaran, nama, atau alamat email kamu. Aplikasi hanya menerima <strong>status pembelian</strong> dari Google Play (misalnya: aktif atau tidak, jenis paket, dan token pembelian yang dibutuhkan untuk memverifikasi dan memulihkan langganan). Library Google Play Billing di dalam aplikasi dapat mengirim informasi teknis tentang proses pembelian ke Google. Penggunaan data oleh Google diatur oleh <a href="https://policies.google.com/privacy" rel="noopener">Kebijakan Privasi Google</a>.</p>
+        <h2>Pembayaran (Google Play Billing)</h2>
+        <p>
+          Langganan Premium diproses oleh Google Play Billing. Kami tidak
+          menerima atau menyimpan nomor kartu, data pembayaran, nama, atau
+          alamat email kamu. Aplikasi hanya menerima
+          <strong>status pembelian</strong> dari Google Play (misalnya: aktif
+          atau tidak, jenis paket, dan token pembelian yang dibutuhkan untuk
+          memverifikasi dan memulihkan langganan). Library Google Play Billing
+          di dalam aplikasi dapat mengirim informasi teknis tentang proses
+          pembelian ke Google. Penggunaan data oleh Google diatur oleh
+          <a href="https://policies.google.com/privacy" rel="noopener"
+            >Kebijakan Privasi Google</a
+          >.
+        </p>
 
-    <h2>Koneksi internet</h2>
-    <p>Aplikasi bekerja sepenuhnya offline. Satu-satunya koneksi jaringan yang dilakukan aplikasi adalah ke Google Play (melalui Google Play Billing) untuk membeli, memverifikasi, atau memulihkan langganan.</p>
+        <h2>Koneksi internet</h2>
+        <p>
+          Aplikasi bekerja sepenuhnya offline. Satu-satunya koneksi jaringan
+          yang dilakukan aplikasi adalah ke Google Play (melalui Google Play
+          Billing) untuk membeli, memverifikasi, atau memulihkan langganan.
+        </p>
 
-    <h2>Notifikasi</h2>
-    <p>Pengingat "Ayat Hari Ini" adalah <strong>notifikasi lokal</strong> yang dijadwalkan oleh perangkatmu sendiri. Tidak ada layanan push dari server. Kamu bisa mengubah jam atau mematikan notifikasi kapan saja di Pengaturan aplikasi atau pengaturan Android.</p>
+        <h2>Notifikasi</h2>
+        <p>
+          Pengingat "Ayat Hari Ini" adalah
+          <strong>notifikasi lokal</strong> yang dijadwalkan oleh perangkatmu
+          sendiri. Tidak ada layanan push dari server. Kamu bisa mengubah jam
+          atau mematikan notifikasi kapan saja di Pengaturan aplikasi atau
+          pengaturan Android.
+        </p>
 
-    <h2>Berbagi ayat</h2>
-    <p>Saat kamu membagikan gambar ayat, aplikasi membuat gambar di perangkatmu dan menyerahkannya ke menu berbagi Android. Ke mana gambar dikirim sepenuhnya kamu yang memilih; aplikasi tidak menyimpan salinannya di tempat lain.</p>
+        <h2>Berbagi ayat</h2>
+        <p>
+          Saat kamu membagikan gambar ayat, aplikasi membuat gambar di
+          perangkatmu dan menyerahkannya ke menu berbagi Android. Ke mana gambar
+          dikirim sepenuhnya kamu yang memilih; aplikasi tidak menyimpan
+          salinannya di tempat lain.
+        </p>
 
-    <h2>Iklan, analitik, dan pelacakan</h2>
-    <p>Versi 1 tidak memuat iklan, SDK analitik, atau pelacak pihak ketiga, dan tidak mengumpulkan pengenal perangkat. Jika di masa depan kami menambahkan analitik anonim (misalnya untuk laporan crash), kebijakan ini akan diperbarui terlebih dahulu dan formulir Keamanan Data di Google Play akan disesuaikan.</p>
+        <h2>Iklan, analitik, dan pelacakan</h2>
+        <p>
+          Versi 1 tidak memuat iklan, SDK analitik, atau pelacak pihak ketiga,
+          dan tidak mengumpulkan pengenal perangkat. Jika di masa depan kami
+          menambahkan analitik anonim (misalnya untuk laporan crash), kebijakan
+          ini akan diperbarui terlebih dahulu dan formulir Keamanan Data di
+          Google Play akan disesuaikan.
+        </p>
 
-    <h2>Berbagi dan penjualan data</h2>
-    <p>Kami tidak menjual, menyewakan, atau membagikan data pribadi kamu kepada pihak ketiga, karena kami memang tidak mengumpulkannya.</p>
+        <h2>Berbagi dan penjualan data</h2>
+        <p>
+          Kami tidak menjual, menyewakan, atau membagikan data pribadi kamu
+          kepada pihak ketiga, karena kami memang tidak mengumpulkannya.
+        </p>
 
-    <h2>Anak-anak</h2>
-    <p>Perisai Alkitab Scroll tidak ditujukan untuk anak-anak di bawah 13 tahun. Kami tidak secara sengaja mengumpulkan data pribadi dari siapa pun, termasuk anak-anak. Pembelian langganan tunduk pada kontrol orang tua dan pengaturan keluarga di Google Play.</p>
+        <h2>Anak-anak</h2>
+        <p>
+          Perisai Alkitab Scroll tidak ditujukan untuk anak-anak di bawah 13
+          tahun. Kami tidak secara sengaja mengumpulkan data pribadi dari siapa
+          pun, termasuk anak-anak. Pembelian langganan tunduk pada kontrol orang
+          tua dan pengaturan keluarga di Google Play.
+        </p>
 
-    <h2>Keamanan</h2>
-    <p>Data disimpan di penyimpanan pribadi aplikasi yang dilindungi oleh sistem Android. Karena kami tidak menerima data kamu, keamanannya bergantung pada keamanan perangkatmu (misalnya kunci layar) dan akun Google kamu.</p>
+        <h2>Keamanan</h2>
+        <p>
+          Data disimpan di penyimpanan pribadi aplikasi yang dilindungi oleh
+          sistem Android. Karena kami tidak menerima data kamu, keamanannya
+          bergantung pada keamanan perangkatmu (misalnya kunci layar) dan akun
+          Google kamu.
+        </p>
 
-    <h2>Hak kamu</h2>
-    <p>Kamu memegang kendali penuh atas data kamu: hapus bookmark di dalam aplikasi, hapus data aplikasi lewat Pengaturan Android, atau uninstall aplikasi untuk menghapus semuanya. Salinan di cadangan Android bisa dihapus lewat pengaturan cadangan Google. Langganan dapat dikelola atau dibatalkan di Google Play &gt; Pembayaran &amp; langganan.</p>
+        <h2>Hak kamu</h2>
+        <p>
+          Kamu memegang kendali penuh atas data kamu: hapus bookmark di dalam
+          aplikasi, hapus data aplikasi lewat Pengaturan Android, atau uninstall
+          aplikasi untuk menghapus semuanya. Salinan di cadangan Android bisa
+          dihapus lewat pengaturan cadangan Google. Langganan dapat dikelola
+          atau dibatalkan di Google Play &gt; Pembayaran &amp; langganan.
+        </p>
 
-    <h2>Perubahan kebijakan</h2>
-    <p>Jika kebijakan ini berubah, kami akan memperbarui tanggal berlaku di atas dan menerbitkan versi baru di halaman ini.</p>
+        <h2>Perubahan kebijakan</h2>
+        <p>
+          Jika kebijakan ini berubah, kami akan memperbarui tanggal berlaku di
+          atas dan menerbitkan versi baru di halaman ini.
+        </p>
 
-    <h2>Kontak</h2>
-    <p>Pertanyaan tentang privasi: <a href="mailto:[CONTACT_EMAIL]">[CONTACT_EMAIL]</a></p>
-  </section>
+        <h2>Kontak</h2>
+        <p>
+          Pertanyaan tentang privasi:
+          <a href="mailto:laserclauss2612@gmail.com"
+            >laserclauss2612@gmail.com</a
+          >
+        </p>
+      </section>
 
-  <section id="en" lang="en">
-    <p>Perisai Bible Scroll ("the app", "we") is an Android app for reading Bible verses in English (KJV) and Indonesian (TSI). This policy explains what data the app uses and how it is handled.</p>
+      <section id="en" lang="en">
+        <p>
+          Perisai Bible Scroll ("the app", "we") is an Android app for reading
+          Bible verses in English (KJV) and Indonesian (TSI). This policy
+          explains what data the app uses and how it is handled.
+        </p>
 
-    <div class="summary">
-      <h2>Summary</h2>
-      <ul>
-        <li>No accounts. You never sign up or log in.</li>
-        <li>Your data is stored on your own device. We have no servers and never receive your data.</li>
-        <li>No ads.</li>
-        <li>No tracking or analytics in version 1.</li>
-        <li>Payments are handled entirely by Google Play.</li>
-        <li>We do not sell or share your data with anyone.</li>
-      </ul>
-    </div>
+        <div class="summary">
+          <h2>Summary</h2>
+          <ul>
+            <li>No accounts. You never sign up or log in.</li>
+            <li>
+              Your data is stored on your own device. We have no servers and
+              never receive your data.
+            </li>
+            <li>No ads.</li>
+            <li>No tracking or analytics in version 1.</li>
+            <li>Payments are handled entirely by Google Play.</li>
+            <li>We do not sell or share your data with anyone.</li>
+          </ul>
+        </div>
 
-    <h2>Data stored on your device</h2>
-    <p>The app stores the following <strong>locally</strong> in its private storage on your device:</p>
-    <ul>
-      <li><strong>Bookmarks</strong> (verses you save).</li>
-      <li><strong>Reading history</strong>: chapters opened per day (used for the free tier's 1-chapter-per-day limit) and your last reading position.</li>
-      <li><strong>Habit data</strong>: your daily streak.</li>
-      <li><strong>Settings</strong>: app language, display mode, notification time.</li>
-      <li><strong>App state</strong>: the date you first opened the app (to calculate the 30-day free trial) and a cached subscription status so the app keeps working offline.</li>
-    </ul>
-    <p>This data is never sent to us. Perisai Bible Scroll has no servers. It is deleted when you clear the app's data or uninstall the app.</p>
+        <h2>Data stored on your device</h2>
+        <p>
+          The app stores the following <strong>locally</strong> in its private
+          storage on your device:
+        </p>
+        <ul>
+          <li><strong>Bookmarks</strong> (verses you save).</li>
+          <li>
+            <strong>Reading history</strong>: chapters opened per day (used for
+            the free tier's 1-chapter-per-day limit) and your last reading
+            position.
+          </li>
+          <li><strong>Habit data</strong>: your daily streak.</li>
+          <li>
+            <strong>Settings</strong>: app language, display mode, notification
+            time.
+          </li>
+          <li>
+            <strong>App state</strong>: the date you first opened the app (to
+            calculate the 30-day free trial) and a cached subscription status so
+            the app keeps working offline.
+          </li>
+        </ul>
+        <p>
+          This data is never sent to us. Perisai Bible Scroll has no servers. It
+          is deleted when you clear the app's data or uninstall the app.
+        </p>
 
-    <h2>Android backup</h2>
-    <p>If Android backup is turned on for your device, Android may include the data above in its automatic backup to your Google account and restore it when you reinstall the app. That backup is controlled by you and Google; we cannot access it. You can turn backup off or delete it in Android or Google Drive settings.</p>
+        <h2>Android backup</h2>
+        <p>
+          If Android backup is turned on for your device, Android may include
+          the data above in its automatic backup to your Google account and
+          restore it when you reinstall the app. That backup is controlled by
+          you and Google; we cannot access it. You can turn backup off or delete
+          it in Android or Google Drive settings.
+        </p>
 
-    <h2>Payments (Google Play Billing)</h2>
-    <p>Premium subscriptions are processed by Google Play Billing. We never receive or store your card number, payment details, name, or email address. The app receives only the <strong>purchase status</strong> from Google Play (for example: whether a subscription is active, which plan, and the purchase token needed to verify and restore it). The Google Play Billing library inside the app may send technical information about the purchase process to Google. Google's use of data is governed by the <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.</p>
+        <h2>Payments (Google Play Billing)</h2>
+        <p>
+          Premium subscriptions are processed by Google Play Billing. We never
+          receive or store your card number, payment details, name, or email
+          address. The app receives only the
+          <strong>purchase status</strong> from Google Play (for example:
+          whether a subscription is active, which plan, and the purchase token
+          needed to verify and restore it). The Google Play Billing library
+          inside the app may send technical information about the purchase
+          process to Google. Google's use of data is governed by the
+          <a href="https://policies.google.com/privacy" rel="noopener"
+            >Google Privacy Policy</a
+          >.
+        </p>
 
-    <h2>Internet access</h2>
-    <p>The app works fully offline. Its only network connection is to Google Play (through Google Play Billing), to buy, verify, or restore a subscription.</p>
+        <h2>Internet access</h2>
+        <p>
+          The app works fully offline. Its only network connection is to Google
+          Play (through Google Play Billing), to buy, verify, or restore a
+          subscription.
+        </p>
 
-    <h2>Notifications</h2>
-    <p>The "Verse of the Day" reminder is a <strong>local notification</strong> scheduled by your own device. There is no server push service. You can change the time or turn notifications off at any time in the app's Settings or in Android settings.</p>
+        <h2>Notifications</h2>
+        <p>
+          The "Verse of the Day" reminder is a
+          <strong>local notification</strong> scheduled by your own device.
+          There is no server push service. You can change the time or turn
+          notifications off at any time in the app's Settings or in Android
+          settings.
+        </p>
 
-    <h2>Sharing verses</h2>
-    <p>When you share a verse image, the app creates the image on your device and hands it to the Android share sheet. You choose where it goes; the app keeps no copy anywhere else.</p>
+        <h2>Sharing verses</h2>
+        <p>
+          When you share a verse image, the app creates the image on your device
+          and hands it to the Android share sheet. You choose where it goes; the
+          app keeps no copy anywhere else.
+        </p>
 
-    <h2>Ads, analytics, and tracking</h2>
-    <p>Version 1 contains no ads, no analytics SDKs, and no third-party trackers, and does not collect device identifiers. If we add anonymous analytics in the future (for example crash reports), we will update this policy first and update the Google Play Data safety form accordingly.</p>
+        <h2>Ads, analytics, and tracking</h2>
+        <p>
+          Version 1 contains no ads, no analytics SDKs, and no third-party
+          trackers, and does not collect device identifiers. If we add anonymous
+          analytics in the future (for example crash reports), we will update
+          this policy first and update the Google Play Data safety form
+          accordingly.
+        </p>
 
-    <h2>Data sharing and sale</h2>
-    <p>We do not sell, rent, or share your personal data with third parties, because we do not collect it.</p>
+        <h2>Data sharing and sale</h2>
+        <p>
+          We do not sell, rent, or share your personal data with third parties,
+          because we do not collect it.
+        </p>
 
-    <h2>Children</h2>
-    <p>Perisai Bible Scroll is not directed at children under 13. We do not knowingly collect personal data from anyone, including children. Subscription purchases are subject to Google Play parental controls and family settings.</p>
+        <h2>Children</h2>
+        <p>
+          Perisai Bible Scroll is not directed at children under 13. We do not
+          knowingly collect personal data from anyone, including children.
+          Subscription purchases are subject to Google Play parental controls
+          and family settings.
+        </p>
 
-    <h2>Security</h2>
-    <p>Data is kept in the app's private storage, protected by Android's app sandbox. Because we never receive your data, its security depends on your device's security (for example, a screen lock) and your Google account.</p>
+        <h2>Security</h2>
+        <p>
+          Data is kept in the app's private storage, protected by Android's app
+          sandbox. Because we never receive your data, its security depends on
+          your device's security (for example, a screen lock) and your Google
+          account.
+        </p>
 
-    <h2>Your rights</h2>
-    <p>You are in full control of your data: delete bookmarks in the app, clear app data in Android Settings, or uninstall the app to remove everything. Copies in your Android backup can be deleted in your Google backup settings. Subscriptions can be managed or cancelled in Google Play &gt; Payments &amp; subscriptions.</p>
+        <h2>Your rights</h2>
+        <p>
+          You are in full control of your data: delete bookmarks in the app,
+          clear app data in Android Settings, or uninstall the app to remove
+          everything. Copies in your Android backup can be deleted in your
+          Google backup settings. Subscriptions can be managed or cancelled in
+          Google Play &gt; Payments &amp; subscriptions.
+        </p>
 
-    <h2>Changes to this policy</h2>
-    <p>If this policy changes, we will update the effective date above and publish the new version on this page.</p>
+        <h2>Changes to this policy</h2>
+        <p>
+          If this policy changes, we will update the effective date above and
+          publish the new version on this page.
+        </p>
 
-    <h2>Contact</h2>
-    <p>Privacy questions: <a href="mailto:[CONTACT_EMAIL]">[CONTACT_EMAIL]</a></p>
-  </section>
+        <h2>Contact</h2>
+        <p>
+          Privacy questions:
+          <a href="mailto:laserclauss2612@gmail.com"
+            >laserclauss2612@gmail.com</a
+          >
+        </p>
+      </section>
 
-  <footer>© 2026 Perisai Alkitab Scroll</footer>
-</main>
-<script>
-  (function () {
-    var text = {
-      id: { title: "Kebijakan Privasi", date: "Berlaku sejak 4 Oktober 2026", doc: "Kebijakan Privasi · Perisai Alkitab Scroll" },
-      en: { title: "Privacy Policy", date: "Effective 4 October 2026", doc: "Privacy Policy · Perisai Bible Scroll" }
-    };
-    document.documentElement.className = "js";
-    function show(lang) {
-      document.querySelectorAll("section[lang]").forEach(function (s) { s.hidden = s.lang !== lang; });
-      document.querySelectorAll(".switch a").forEach(function (a) {
-        a.setAttribute("aria-current", a.dataset.lang === lang ? "true" : "false");
-      });
-      document.documentElement.lang = lang;
-      document.getElementById("title").textContent = text[lang].title;
-      document.getElementById("date").textContent = text[lang].date;
-      document.title = text[lang].doc;
-    }
-    function fromHash() {
-      var h = location.hash.slice(1);
-      if (h === "id" || h === "en") return h;
-      var nav = (navigator.language || "id").toLowerCase();
-      return nav.indexOf("id") === 0 || nav.indexOf("in") === 0 || nav.indexOf("en") !== 0 ? "id" : "en";
-    }
-    document.querySelectorAll(".switch a").forEach(function (a) {
-      a.addEventListener("click", function (e) {
-        e.preventDefault();
-        history.replaceState(null, "", "#" + a.dataset.lang);
-        show(a.dataset.lang);
-        window.scrollTo(0, 0);
-      });
-    });
-    window.addEventListener("hashchange", function () { show(fromHash()); });
-    show(fromHash());
-  })();
-</script>
-</body>
+      <footer>© 2026 Perisai Alkitab Scroll</footer>
+    </main>
+    <script>
+      (function () {
+        var text = {
+          id: {
+            title: "Kebijakan Privasi",
+            date: "Berlaku sejak 4 Oktober 2026",
+            doc: "Kebijakan Privasi · Perisai Alkitab Scroll",
+          },
+          en: {
+            title: "Privacy Policy",
+            date: "Effective 4 October 2026",
+            doc: "Privacy Policy · Perisai Bible Scroll",
+          },
+        };
+        document.documentElement.className = "js";
+        function show(lang) {
+          document.querySelectorAll("section[lang]").forEach(function (s) {
+            s.hidden = s.lang !== lang;
+          });
+          document.querySelectorAll(".switch a").forEach(function (a) {
+            a.setAttribute(
+              "aria-current",
+              a.dataset.lang === lang ? "true" : "false",
+            );
+          });
+          document.documentElement.lang = lang;
+          document.getElementById("title").textContent = text[lang].title;
+          document.getElementById("date").textContent = text[lang].date;
+          document.title = text[lang].doc;
+        }
+        function fromHash() {
+          var h = location.hash.slice(1);
+          if (h === "id" || h === "en") return h;
+          var nav = (navigator.language || "id").toLowerCase();
+          return nav.indexOf("id") === 0 ||
+            nav.indexOf("in") === 0 ||
+            nav.indexOf("en") !== 0
+            ? "id"
+            : "en";
+        }
+        document.querySelectorAll(".switch a").forEach(function (a) {
+          a.addEventListener("click", function (e) {
+            e.preventDefault();
+            history.replaceState(null, "", "#" + a.dataset.lang);
+            show(a.dataset.lang);
+            window.scrollTo(0, 0);
+          });
+        });
+        window.addEventListener("hashchange", function () {
+          show(fromHash());
+        });
+        show(fromHash());
+      })();
+    </script>
+  </body>
 </html>

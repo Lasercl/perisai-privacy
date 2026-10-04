@@ -155,4 +155,4 @@ If this policy changes, we will update the effective date above and publish the 
 
 ### Contact
 
-Privacy questions: [CONTACT_EMAIL]
+Privacy questions: laserclauss2612@gmail.com
